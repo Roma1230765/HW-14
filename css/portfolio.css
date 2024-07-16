@@ -37,7 +37,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.38px;
+  line-height: 1.38;
   letter-spacing: 0.78px;
 }
 
@@ -46,7 +46,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.38px;
+  line-height: 1.38;
   letter-spacing: 0.78px;
   margin-left: 215px;
   margin-right: 93px;
@@ -88,7 +88,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
-  line-height: 1, 14;
+  line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
@@ -99,7 +99,7 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 62;
+  line-height: 1.62;
   letter-spacing: 0.48px;
 }
 
@@ -152,7 +152,7 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 2, 25;
+  line-height: 2.25;
   letter-spacing: 0.48px;
   margin-left: 24px;
   margin-bottom: 20px;
