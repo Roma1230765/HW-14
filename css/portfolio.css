@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1548px;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -93,11 +93,15 @@ body {
   letter-spacing: 0.28px;
 }
 
-.card-item button:hover {
-  background-color: var(--accent-color);
+.card {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 
+.card-item button:hover {
+  background-color: var(--accent-color);
+}
 
 .card-item {
   color: var(--text-color);
@@ -108,7 +112,15 @@ body {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
-  background-color: var(--team-background);
+  background-color:var(--team-background);
+  border:none;
+}
+
+.card-list {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .card-all {
@@ -136,13 +148,6 @@ height: 38px;
 height: 38px;
 }
 
-.card-list {
-  padding-top: 94px;
-  margin-left: 512px;
-  margin-bottom: 56px;
-  display: flex;
-  gap: 8px;
-}
 
 
 .hero {
