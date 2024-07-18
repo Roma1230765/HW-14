@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -48,7 +48,6 @@ body {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
-  margin-left: 215px;
   margin-right: 93px;
 }
 
@@ -103,7 +102,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.card-item {
+.card-button {
   color: var(--text-color);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -114,6 +113,7 @@ body {
   letter-spacing: 0.48px;
   background-color:var(--team-background);
   border:none;
+  padding: 6px 22px;
 }
 
 .card-list {
@@ -123,44 +123,18 @@ body {
   gap: 8px;
 }
 
-.card-all {
-  width: 73px;
-height: 38px;
-}
-
-.card-web {
-  width: 125px;
-height: 38px;
-}
-
-.card-app {
-  width: 112px;
-height: 38px;
-}
-
-.card-design {
-  width: 103px;
-height: 38px;
-}
-
-.card-marketing {
-  width: 103px;
-height: 38px;
-}
-
-
-
 .hero {
   flex-wrap: wrap;
-  content: "";
   display: flex;
   gap: 30px;
-  margin-bottom: 30px;
-  margin-left: 215px;
+}
+
+.hero-list {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .hero-item {
-    width: 370px;
+    width: 100%;
     background-color: var(--main-background);
 }
 

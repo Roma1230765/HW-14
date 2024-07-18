@@ -150,6 +150,10 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
+
+  .work-picture {
+    width: 270px;
+  }
   
   .work-list {
     display: flex;
@@ -159,6 +163,10 @@
   .work-item {
     flex-basis: calc((100% - 60px) / 3);
   }
+  
+  /* .work-picture {
+    flex-basis: calc((100% ));
+  } */
   
   .work-img {
     width: 100%;
@@ -184,6 +192,9 @@
     display: flex;
     gap: 30px;
   }
+
+  .team-item {
+  flex-basis:calc((100% - 90px) / 4);}
   
   .team-vraper {
     padding-top: 30px;
