@@ -92,7 +92,14 @@ body {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-button {
+
+.card-item button:hover {
+  background-color: var(--accent-color);
+}
+
+
+
+.card-item {
   color: var(--text-color);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -101,6 +108,32 @@ button {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
+  background-color: var(--team-background);
+}
+
+.card-all {
+  width: 73px;
+height: 38px;
+}
+
+.card-web {
+  width: 125px;
+height: 38px;
+}
+
+.card-app {
+  width: 112px;
+height: 38px;
+}
+
+.card-design {
+  width: 103px;
+height: 38px;
+}
+
+.card-marketing {
+  width: 103px;
+height: 38px;
 }
 
 .card-list {
@@ -111,9 +144,6 @@ button {
   gap: 8px;
 }
 
-.card-item button:hover {
-  background-color: var(--accent-color);
-}
 
 .hero {
   flex-wrap: wrap;
@@ -194,6 +224,10 @@ footer {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-link {
